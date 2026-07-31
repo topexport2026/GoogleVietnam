@@ -213,10 +213,10 @@
                     <span id="lang-switch-text" class="tracking-wide">VN | EN</span>
                 </button>
 
-                <button onclick="openModal()" class="shimmer-btn bg-gradient-to-r from-champagne-500 via-champagne-600 to-yellow-600 hover:from-champagne-600 hover:to-champagne-700 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-md transition-all duration-300 transform hover:scale-105 flex items-center space-x-1.5">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_f7XOpf9VFyloOWdJIwyUTml_Yd4mFJCbKWaus5V2jR-GAA/viewform" target="_blank" rel="noopener noreferrer" class="shimmer-btn bg-gradient-to-r from-champagne-500 via-champagne-600 to-yellow-600 hover:from-champagne-600 hover:to-champagne-700 text-white text-xs font-semibold px-4 py-2 rounded-full shadow-md transition-all duration-300 transform hover:scale-105 flex items-center space-x-1.5">
                     <i class="fa-solid fa-paper-plane text-[10px]"></i>
                     <span data-vi="ĐĂNG KÝ NGAY" data-en="REGISTER NOW" class="i18n">ĐĂNG KÝ NGAY</span>
-                </button>
+                </a>
 
                 <!-- Mobile Menu Button -->
                 <button onclick="toggleMobileMenu()" class="lg:hidden w-9 h-9 rounded-full bg-champagne-100 border border-champagne-300 text-botanical-900 flex items-center justify-center">
@@ -331,10 +331,10 @@
                     Đặc quyền tham dự: Toàn bộ chi phí nghỉ dưỡng 2N1Đ và ăn uống trong suốt sự kiện (27–28/08/2026) đều được tài trợ hoàn toàn bởi team Google (không bao gồm các chi phí cá nhân khác).
                 </p>
 
-                <button onclick="openModal()" class="shimmer-btn inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-champagne-500 via-champagne-600 to-yellow-600 text-white font-bold px-8 py-3.5 rounded-full shadow-md hover:shadow-gold-glow transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_f7XOpf9VFyloOWdJIwyUTml_Yd4mFJCbKWaus5V2jR-GAA/viewform" target="_blank" rel="noopener noreferrer" class="shimmer-btn inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-champagne-500 via-champagne-600 to-yellow-600 text-white font-bold px-8 py-3.5 rounded-full shadow-md hover:shadow-gold-glow transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm">
                     <i class="fa-solid fa-id-card text-sm"></i>
                     <span data-vi="【 ĐĂNG KÝ NGAY TẠI ĐÂY 】" data-en="【 REGISTER NOW HERE 】" class="i18n tracking-wider">【 ĐĂNG KÝ NGAY TẠI ĐÂY 】</span>
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -874,10 +874,10 @@
                 Đừng bỏ lỡ vị trí đặc quyền tại hội nghị cao cấp dành cho các nhà lãnh đạo Export toàn cầu.
             </p>
 
-            <button onclick="openModal()" class="shimmer-btn bg-gradient-to-r from-champagne-500 via-gold to-yellow-500 hover:from-champagne-600 hover:to-champagne-700 text-botanical-900 font-bold text-sm tracking-wider uppercase px-10 py-4 rounded-full shadow-gold-glow transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-2">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_f7XOpf9VFyloOWdJIwyUTml_Yd4mFJCbKWaus5V2jR-GAA/viewform" target="_blank" rel="noopener noreferrer" class="shimmer-btn bg-gradient-to-r from-champagne-500 via-gold to-yellow-500 hover:from-champagne-600 hover:to-champagne-700 text-botanical-900 font-bold text-sm tracking-wider uppercase px-10 py-4 rounded-full shadow-gold-glow transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-2">
                 <i class="fa-solid fa-lock text-xs"></i>
                 <span data-vi="【 ĐĂNG KÝ GIỮ CHỖ NGAY 】" data-en="【 SECURE YOUR SLOT NOW 】" class="i18n">【 ĐĂNG KÝ GIỮ CHỖ NGAY 】</span>
-            </button>
+            </a>
         </div>
     </section>
 
@@ -1106,11 +1106,7 @@
         }
 
         function openModal() {
-            const modal = document.getElementById('registration-modal');
-            const box = document.getElementById('modal-box');
-            modal.classList.remove('opacity-0', 'pointer-events-none');
-            box.classList.remove('scale-95');
-            box.classList.add('scale-100');
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSc_f7XOpf9VFyloOWdJIwyUTml_Yd4mFJCbKWaus5V2jR-GAA/viewform', '_blank');
         }
 
         function closeModal() {
