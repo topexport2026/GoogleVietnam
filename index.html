@@ -189,10 +189,6 @@
                         <i class="fa-solid fa-chess-knight text-[10px] text-champagne-600"></i>
                         <span data-vi="Trụ Cột" data-en="Pillars" class="i18n">Trụ Cột</span>
                     </a>
-                    <a href="#speakers" class="px-3 py-1 rounded-full text-gray-700 hover:text-botanical-900 hover:bg-white transition-all flex items-center space-x-1">
-                        <i class="fa-solid fa-user-tie text-[10px] text-champagne-600"></i>
-                        <span data-vi="Diễn Giả" data-en="Speakers" class="i18n">Diễn Giả</span>
-                    </a>
                     <a href="#venue" class="px-3 py-1 rounded-full text-gray-700 hover:text-botanical-900 hover:bg-white transition-all flex items-center space-x-1">
                         <i class="fa-solid fa-hotel text-[10px] text-champagne-600"></i>
                         <span data-vi="Địa Điểm" data-en="Venue" class="i18n">Địa Điểm</span>
@@ -225,9 +221,6 @@
             </a>
             <a href="#guide" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded-lg hover:bg-champagne-50 text-gray-800">
                 <i class="fa-solid fa-route mr-2 text-champagne-600"></i><span data-vi="Hướng Dẫn" data-en="Resort Guide" class="i18n">Hướng Dẫn</span>
-            </a>
-            <a href="#speakers" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded-lg hover:bg-champagne-50 text-gray-800">
-                <i class="fa-solid fa-user-tie mr-2 text-champagne-600"></i><span data-vi="Diễn Giả" data-en="Speakers" class="i18n">Diễn Giả</span>
             </a>
             <a href="#venue" onclick="toggleMobileMenu()" class="block py-2 px-3 rounded-lg hover:bg-champagne-50 text-gray-800">
                 <i class="fa-solid fa-hotel mr-2 text-champagne-600"></i><span data-vi="Địa Điểm" data-en="Venue" class="i18n">Địa Điểm</span>
@@ -516,7 +509,7 @@
                     <div class="absolute top-0 right-0 w-20 h-20 bg-champagne-100 rounded-bl-full -z-10 group-hover:bg-champagne-200 transition-colors"></div>
                     <div>
                         <div data-vi="TRỤ CỘT 03" data-en="PILLAR 03" class="i18n text-xs font-bold text-champagne-600 tracking-widest uppercase mb-2">TRỤ CỘT 03</div>
-                        <h3 data-vi="MỞ RỘNG QUỐC TẾ" data-en="GLOBAL EXPANSION" class="i18n font-serif-title text-2xl font-bold text-botanical-900 mb-3">MỞ RỘNG QUỐC TẾ</h3>
+                        <h3 data-vi="MỞ RỘNG QUỐC TẾ" data-en="GLOBAL EXPANSION" class="i18n font-serif-title text-2xl font-bold text-botanical-900 mb-3">HIỆU SUẤT THƯƠNG HIỆU</h3>
                         <div class="h-0.5 w-12 bg-champagne-400 mb-4"></div>
                         <p data-vi="Cẩm nang thị trường ngoài Mỹ cho mùa cao điểm" data-en="Non-US market playbooks for peak season" class="i18n text-sm text-gray-700 font-medium mb-4">Cẩm nang thị trường ngoài Mỹ cho mùa cao điểm</p>
                         <p data-vi="Mở rộng thị trường tiềm năng ngoài Mỹ (Châu Âu, Đông Nam Á, LatAm). Cẩm nang thực chiến bứt phá doanh số cho mùa cao điểm Peak Season Q4-2026." data-en="Expand into high-growth non-US markets (EU, SEA, LatAm). Actionable playbooks for Q4-2026 peak season revenue spikes." class="i18n text-xs text-gray-500 leading-relaxed">
@@ -527,215 +520,6 @@
             </div>
         </div>
     </section>
-
-    <section id="speakers" class="py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <span data-vi="DIỄN GIẢ & CHUYÊN GIA NỔI BẬT" data-en="FEATURED SPEAKERS & EXPERTS" class="i18n text-xs font-semibold uppercase tracking-widest text-champagne-600 block mb-2">DIỄN GIẢ & CHUYÊN GIA NỔI BẬT</span>
-            <h2 data-vi="ĐỘI NGŨ DIỄN GIẢ HÀNG ĐẦU" data-en="OUR KEYNOTE SPEAKERS" class="i18n font-serif-title text-3xl sm:text-5xl font-bold text-botanical-900">ĐỘI NGŨ DIỄN GIẢ HÀNG ĐẦU</h2>
-            <p data-vi="Quy tụ các nhà lãnh đạo, cố vấn chiến lược và chuyên gia cấp cao từ Google, Momentum Works, NextBillion.ai & Airwallex. Nhấn vào từng diễn giả để xem tiểu sử chi tiết." data-en="Gathering distinguished leaders and experts from Google, Momentum Works, NextBillion.ai & Airwallex. Click any speaker to view full bio." class="i18n text-xs sm:text-sm text-gray-600 mt-2 max-w-2xl mx-auto">Quy tụ các nhà lãnh đạo, cố vấn chiến lược và chuyên gia cấp cao từ Google, Momentum Works, NextBillion.ai & Airwallex. Nhấn vào từng diễn giả để xem tiểu sử chi tiết.</p>
-            <div class="w-24 h-1 bg-gradient-to-r from-transparent via-champagne-500 to-transparent mx-auto mt-4"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <!-- Speaker 0: Jianggan Li -->
-            <div onclick="openSpeakerModal(0)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Jianggan%20Li_7.jpg" alt="Jianggan Li" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Jianggan+Li';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-champagne-100 text-champagne-600 text-[10px] font-bold rounded-full uppercase tracking-wider mb-1">Momentum Works</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Jianggan Li</h3>
-                    <p data-vi="Sáng lập & CEO, Momentum Works" data-en="Founder & CEO, Momentum Works" class="i18n text-xs text-gray-600 font-medium truncate">Sáng lập & CEO, Momentum Works</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 1: Shaolin Zheng -->
-            <div onclick="openSpeakerModal(1)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Shaolin%20Zheng_5.jpg" alt="Shaolin Zheng" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Shaolin+Zheng';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-champagne-100 text-champagne-600 text-[10px] font-bold rounded-full uppercase tracking-wider mb-1">NextBillion.ai</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Shaolin Zheng</h3>
-                    <p data-vi="Đồng sáng lập & CTO, NextBillion.ai" data-en="Co-founder & CTO, NextBillion.ai" class="i18n text-xs text-gray-600 font-medium truncate">Đồng sáng lập & CTO, NextBillion.ai</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 2: Daniela Putz -->
-            <div onclick="openSpeakerModal(2)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Daniela%20Putz_4.jpg" alt="Daniela Putz" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Daniela+Putz';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google APAC</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Daniela Putz</h3>
-                    <p data-vi="Giám đốc Tăng trưởng Quốc tế, Google APAC" data-en="Head of International Growth, Google APAC" class="i18n text-xs text-gray-600 font-medium truncate">Giám đốc Tăng trưởng Quốc tế, Google APAC</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 3: Emily Nguyen -->
-            <div onclick="openSpeakerModal(3)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Emily%20Nguyen_4.jpg" alt="Emily Nguyen" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Emily+Nguyen';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google Vietnam</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Emily Nguyen</h3>
-                    <p data-vi="Giám đốc Quốc gia, Google Việt Nam" data-en="Country Manager, Google Vietnam" class="i18n text-xs text-gray-600 font-medium truncate">Giám đốc Quốc gia, Google Việt Nam</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 4: Jeanne Wang -->
-            <div onclick="openSpeakerModal(4)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Jeanne%20Wang_4.jpg" alt="Jeanne Wang" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Jeanne+Wang';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google China</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Jeanne Wang</h3>
-                    <p data-vi="Quản lý Khách hàng Cấp cao, Google Trung Quốc" data-en="Senior Account Executive, Google China" class="i18n text-xs text-gray-600 font-medium truncate">Quản lý Khách hàng Cấp cao, Google Trung Quốc</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 5: Huy -->
-            <div onclick="openSpeakerModal(5)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Huy_4.jpg" alt="Huy" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Huy';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-purple-50 text-purple-700 text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google Cloud</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Huy</h3>
-                    <p data-vi="Cố vấn Giải pháp Khách hàng, Google Cloud" data-en="Customer Solutions Consultant, Google Cloud" class="i18n text-xs text-gray-600 font-medium truncate">Cố vấn Giải pháp Khách hàng, Google Cloud</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 6: Dennis Laurentius -->
-            <div onclick="openSpeakerModal(6)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Dennis%20Laurentius_4.jpg" alt="Dennis Laurentius" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Dennis+Laurentius';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google SEA</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Dennis Laurentius</h3>
-                    <p data-vi="Chuyên gia Tư vấn Tăng trưởng Quốc tế Cấp cao, Google SEA" data-en="Senior International Growth Consultant, Google SEA" class="i18n text-xs text-gray-600 font-medium truncate">Chuyên gia Tư vấn Tăng trưởng Quốc tế Cấp cao, Google SEA</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 7: Olivia Shi -->
-            <div onclick="openSpeakerModal(7)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Olivia%20Shi_4.jpg" alt="Olivia Shi" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Olivia+Shi';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">GCS SEA & CN</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Olivia Shi</h3>
-                    <p data-vi="Quản lý Chương trình GBS Cấp cao, GCS SEA & CN" data-en="Senior GBS Program Manager, GCS SEA & CN" class="i18n text-xs text-gray-600 font-medium truncate">Quản lý Chương trình GBS Cấp cao, GCS SEA & CN</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 8: Duy Vu -->
-            <div onclick="openSpeakerModal(8)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Duy%20Vu_5.jpg" alt="Duy Vu" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Duy+Vu';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-blue-50 text-google-blue text-[10px] font-bold rounded-full uppercase tracking-wider mb-1 font-google-sans">Google Vietnam</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Duy Vu</h3>
-                    <p data-vi="Giám đốc Ngành hàng, Google Việt Nam" data-en="Industry Manager, Google Vietnam" class="i18n text-xs text-gray-600 font-medium truncate">Giám đốc Ngành hàng, Google Việt Nam</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-
-            <!-- Speaker 9: Son Pham -->
-            <div onclick="openSpeakerModal(9)" class="speaker-card-container glass-card rounded-2xl p-4 border border-champagne-300/80 shadow-sm flex items-center space-x-4 cursor-pointer hover:border-champagne-500 hover:shadow-luxury hover:-translate-y-0.5 transition-all duration-300 group">
-                <div class="speaker-frame-outer w-18 h-18 sm:w-20 sm:h-20 flex-shrink-0">
-                    <div class="speaker-frame-inner">
-                        <img src="Son%20Pham_4.jpg" alt="Son Pham" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://placehold.co/150x150/0F2317/D4AF37?text=Son+Pham';">
-                    </div>
-                </div>
-                <div class="flex-grow min-w-0">
-                    <span class="inline-block px-2.5 py-0.5 bg-champagne-100 text-champagne-600 text-[10px] font-bold rounded-full uppercase tracking-wider mb-1">Airwallex</span>
-                    <h3 class="font-serif-title text-lg font-bold text-botanical-900 group-hover:text-champagne-600 transition-colors truncate">Son Pham</h3>
-                    <p data-vi="Giám đốc Kinh doanh Khối SME & Tăng trưởng, Airwallex" data-en="Director of Sales, SME & Growth, Airwallex" class="i18n text-xs text-gray-600 font-medium truncate">Giám đốc Kinh doanh Khối SME & Tăng trưởng, Airwallex</p>
-                </div>
-                <div class="text-champagne-500 group-hover:translate-x-1 transition-transform flex-shrink-0 pr-2">
-                    <i class="fa-solid fa-chevron-right text-xs"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Modal for Speaker Detail Pop-up -->
-    <div id="speaker-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-all duration-300">
-        <div class="glass-card max-w-xl w-full rounded-3xl p-6 sm:p-8 border border-champagne-300/90 shadow-2xl relative bg-white transform transition-all scale-95" id="speaker-modal-card">
-            <button onclick="closeSpeakerModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-champagne-100 text-botanical-900 hover:bg-champagne-200 flex items-center justify-center transition-colors">
-                <i class="fa-solid fa-xmark text-sm"></i>
-            </button>
-            
-            <div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start text-center sm:text-left">
-                <div class="speaker-frame-outer w-28 h-28 sm:w-32 sm:h-32 flex-shrink-0 shadow-lg">
-                    <div class="speaker-frame-inner">
-                        <img id="modal-speaker-img" src="" alt="Speaker" class="w-full h-full object-cover object-top">
-                    </div>
-                </div>
-                <div>
-                    <span id="modal-speaker-company" class="inline-block px-3 py-0.5 bg-champagne-100 text-champagne-600 text-[11px] font-bold rounded-full uppercase tracking-wider mb-2"></span>
-                    <h3 id="modal-speaker-name" class="font-serif-title text-2xl sm:text-3xl font-bold text-botanical-900 mb-1"></h3>
-                    <p id="modal-speaker-title" class="text-xs font-bold text-champagne-600 mb-4"></p>
-                </div>
-            </div>
-
-            <div class="h-[1px] w-full bg-champagne-200 my-4"></div>
-
-            <div class="max-h-60 overflow-y-auto pr-2">
-                <p id="modal-speaker-bio" class="text-xs sm:text-sm text-gray-700 leading-relaxed font-sans"></p>
-            </div>
-        </div>
-    </div>
 
     <section id="venue" class="py-16 bg-gradient-to-b from-champagne-50 via-white to-champagne-100/60 border-t border-champagne-200">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1326,7 +1110,7 @@
                 company: 'Momentum Works',
                 titleVi: 'Sáng lập & CEO, Momentum Works',
                 titleEn: 'Founder & CEO, Momentum Works',
-                img: 'Jianggan%20Li_7.jpg',
+                img: 'Jianggan%20Li_6.jpg',
                 bioVi: 'Jianggan Li là Nhà sáng lập & CEO của Momentum Works, công ty nghiên cứu và phân tích thị trường có trụ sở tại Singapore, hỗ trợ các nhà lãnh đạo doanh nghiệp nắm bắt nền kinh tế số phát triển nhanh chóng tại Châu Á. Với hơn 20 năm kinh nghiệm lãnh đạo công nghệ tại Trung Quốc và Đông Nam Á, ông từng đồng sáng lập hoạt động của Easy Taxi tại Châu Á và đảm nhiệm vị trí Giám đốc Điều hành tại foodpanda.',
                 bioEn: 'Jianggan Li is the Founder & CEO of Momentum Works, a Singapore-based research and intelligence firm helping business leaders understand Asia\'s rapidly evolving digital economy. With over two decades of technology leadership across China and SEA, he previously co-founded Easy Taxi\'s Asia operations and served as Managing Director at foodpanda.'
             },
@@ -1335,7 +1119,7 @@
                 company: 'NextBillion.ai',
                 titleVi: 'Đồng sáng lập & CTO, NextBillion.ai',
                 titleEn: 'Co-founder & CTO, NextBillion.ai',
-                img: 'Shaolin%20Zheng_5.jpg',
+                img: 'Shaolin%20Zheng_4.jpg',
                 bioVi: 'Shaolin Zheng là Đồng sáng lập và CTO của NextBillion.ai, đơn vị cung cấp giải pháp bản đồ & AI không gian trên khắp 5 châu lục. Với gần 20 năm kinh nghiệm xây dựng các sản phẩm công nghệ quy mô lớn tại Trung Quốc và Đông Nam Á, ông từng lãnh đạo Trung tâm R&D của Grab tại Bắc Kinh, mở rộng quy mô lên hơn 350 kỹ sư.',
                 bioEn: 'Shaolin Zheng is the Co-founder and CTO of NextBillion.ai, providing spatial AI & mapping solutions across five continents. With close to 20 years of experience building large-scale technology products in China and SEA, he previously led Grab\'s Beijing R&D Centre, scaling it to 350+ engineers.'
             },
@@ -1344,7 +1128,7 @@
                 company: 'Google APAC',
                 titleVi: 'Giám đốc Tăng trưởng Quốc tế, Google APAC',
                 titleEn: 'Head of International Growth, Google APAC',
-                img: 'Daniela%20Putz_4.jpg',
+                img: 'Daniela%20Putz_3.jpg',
                 bioVi: 'Nhà lãnh đạo quốc tế dày dặn kinh nghiệm với hơn 20 năm hoạt động trong các lĩnh vực công nghệ, tiếp thị và kinh doanh tại khu vực APAC và Châu Âu. Hiện dẫn dắt đội ngũ Giải pháp Doanh nghiệp Toàn cầu của Google tại APAC, Daniela đồng hành cùng các doanh nghiệp mở rộng quy mô toàn cầu, tối ưu hóa lợi nhuận và tăng tốc dấu ấn xuyên biên giới.',
                 bioEn: 'Accomplished international leader with over 20 years of experience spanning technology, marketing, and sales across APAC and Europe. Leading Google\'s Global Business Solutions team in APAC, Daniela empowers businesses to scale globally, optimize profitability, and accelerate cross-border footprints.'
             },
@@ -1353,7 +1137,7 @@
                 company: 'Google Vietnam',
                 titleVi: 'Giám đốc Quốc gia, Google Việt Nam',
                 titleEn: 'Country Manager, Google Vietnam',
-                img: 'Emily%20Nguyen_4.jpg',
+                img: 'Emily%20Nguyen_3.jpg',
                 bioVi: 'Gia nhập Google từ năm 2013 và chính thức đảm nhận vị trí Giám đốc Quốc gia mảng Khách hàng Doanh nghiệp (GCS) tại Google Việt Nam từ năm 2016. Chị Emily dẫn dắt bộ phận giải pháp quảng cáo và thúc đẩy hợp tác chiến lược với các doanh nghiệp SME, các nhà phát triển và xuất bản nội dung nhằm xây dựng sự tăng trưởng bền vững và đổi mới xuyên biên giới.',
                 bioEn: 'Joined Google in 2013 and assumed Country Manager for Google Customer Solutions at Google Vietnam in 2016. Emily leads advertising solutions and drives strategic partnerships with SMEs, developers, and publishers to foster sustainable growth and cross-border innovation.'
             },
@@ -1362,7 +1146,7 @@
                 company: 'Google China',
                 titleVi: 'Quản lý Khách hàng Cấp cao, Google Trung Quốc',
                 titleEn: 'Senior Account Executive, Google China',
-                img: 'Jeanne%20Wang_4.jpg',
+                img: 'Jeanne%20Wang_3.jpg',
                 bioVi: 'Sở hữu hơn 10 năm kinh nghiệm trong ngành quảng cáo kỹ thuật số tại Google GCS Trung Quốc và Baidu, Jeanne quản lý các thương hiệu hàng đầu Trung Quốc bao gồm GEELY Motors, Ulike, Heybike và Speediance. Cô từng tư vấn trực tiếp cho Callie - khách hàng POD hàng đầu Trung Quốc trong hơn 2 năm, phát triển thành một thương hiệu toàn cầu nổi bật.',
                 bioEn: 'With over 10 years of digital ads experience across Google GCS China and Baidu, Jeanne manages premier Chinese brands including GEELY Motors, Ulike, Heybike, and Speediance. Managed China\'s top POD client Callie for 2+ years into a prominent global brand.'
             },
@@ -1371,7 +1155,7 @@
                 company: 'Google Cloud',
                 titleVi: 'Cố vấn Giải pháp Khách hàng, Google Cloud',
                 titleEn: 'Customer Solutions Consultant, Google Cloud',
-                img: 'Huy_4.jpg',
+                img: 'Huy_3.jpg',
                 bioVi: 'Cố vấn Giải pháp Khách hàng tại Google Cloud, chuyên tư vấn cho các doanh nghiệp lớn về chuyển đổi đám mây và ứng dụng AI. Hai thập kỷ trong lĩnh vực chuyển đổi số của ông gắn liền với các vị trí lãnh đạo tại Pizza 4P\'s, VIB, Deloitte Digital, Ogilvy và FPT Software trên các ngành F&B, tài chính và tư vấn công nghệ.',
                 bioEn: 'Customer Solutions Consultant at Google Cloud advising enterprise clients on cloud and AI adoption. His two decades in digital transformation span leadership roles at Pizza 4P\'s, VIB, Deloitte Digital, Ogilvy, and FPT Software across F&B, finance, and tech consulting.'
             },
@@ -1380,7 +1164,7 @@
                 company: 'Google SEA',
                 titleVi: 'Chuyên gia Tư vấn Tăng trưởng Quốc tế Cấp cao, Google SEA',
                 titleEn: 'Senior International Growth Consultant, Google SEA',
-                img: 'Dennis%20Laurentius_4.jpg',
+                img: 'Dennis%20Laurentius_3.jpg',
                 bioVi: 'Chuyên gia Tư vấn Tăng trưởng Quốc tế Cấp cao tư vấn cho hơn 100 doanh nghiệp SME hàng đầu trên khắp Đông Nam Á (bao gồm Singapore & Việt Nam) nhằm mở rộng dấu ấn kỹ thuật số ra thị trường toàn cầu. Ông sở hữu bằng MBA từ INSEAD Pháp cùng nền tảng chuyên môn sâu rộng từ Strategy& PwC và mảng quảng cáo SMB của Google.',
                 bioEn: 'Senior International Growth Consultant advising 100+ top SMEs across SEA (including SG & VN) to expand digital footprints in global markets. Holds an MBA from INSEAD France with background in Strategy& PwC and Google SMB advertising.'
             },
@@ -1389,7 +1173,7 @@
                 company: 'GCS SEA & CN',
                 titleVi: 'Quản lý Chương trình GBS Cấp cao, GCS SEA & CN',
                 titleEn: 'Senior GBS Program Manager, GCS SEA & CN',
-                img: 'Olivia%20Shi_4.jpg',
+                img: 'Olivia%20Shi_3.jpg',
                 bioVi: 'Với hơn 10 năm kinh nghiệm vận hành và mở rộng quy mô toàn cầu trong ngành bán lẻ và ứng dụng di động, Olivia chuyên kết nối thị trường phương Tây và Châu Á. Tại Google, cô đã hỗ trợ hàng trăm doanh nghiệp Export tối ưu hóa bản địa hóa kênh kỹ thuật số và thúc đẩy tăng trưởng lợi nhuận.',
                 bioEn: 'With over 10 years of global expansion and operations experience in retail and mobile apps, Olivia specializes in bridging Western and Asian markets. At Google, she has empowered hundreds of export clients to localize digital channels and drive profit uplift.'
             },
@@ -1398,7 +1182,7 @@
                 company: 'Google Vietnam',
                 titleVi: 'Giám đốc Ngành hàng, Google Việt Nam',
                 titleEn: 'Industry Manager, Google Vietnam',
-                img: 'Duy%20Vu_5.jpg',
+                img: 'Duy%20Vu_4.jpg',
                 bioVi: '10 năm kinh nghiệm tại Google trong việc thúc đẩy quy mô cho các thương hiệu Bán lẻ và Thương mại điện tử hàng đầu Việt Nam như MWG, Samsung, Sendo, Tiki và Printerval. Ông đóng vai trò nòng cốt trong việc ra mắt giải pháp Google Shopping và O2O tại VN, cùng kinh nghiệm lãnh đạo thương mại số trước đó tại Lazada.',
                 bioEn: '10 years at Google scaling top-tier Retail and eCommerce brands in Vietnam including MWG, Samsung, Sendo, Tiki, and Printerval. Played a pivotal role in launching Google Shopping and O2O solutions in VN, with prior digital commerce leadership at Lazada.'
             },
@@ -1407,7 +1191,7 @@
                 company: 'Airwallex',
                 titleVi: 'Giám đốc Kinh doanh Khối SME & Tăng trưởng, Airwallex',
                 titleEn: 'Director of Sales, SME & Growth, Airwallex',
-                img: 'Son%20Pham_4.jpg',
+                img: 'Son%20Pham_3.jpg',
                 bioVi: 'Anh Sơn Phạm dẫn dắt Airwallex Việt Nam với hơn một thập kỷ kinh nghiệm mở rộng hệ sinh thái thương mại tại Việt Nam và Đông Nam Á. Trước đây ông từng lãnh đạo đội ngũ thương mại 200 người tại Shopee Việt Nam và tư vấn chiến lược tại BCG, sở hữu chuyên môn sâu về FX toàn cầu và quản trị tài chính xuyên biên giới.',
                 bioEn: 'Son Pham leads Airwallex Vietnam, bringing over a decade of experience scaling merchant ecosystems across Vietnam and SEA. Previously led a 200-person commercial organization at Shopee Vietnam and advised strategy at BCG, with deep expertise in global FX and cross-border treasury.'
             }
